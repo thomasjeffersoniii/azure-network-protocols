@@ -6,9 +6,9 @@
 In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
 
 
-<h2>Video Demonstration</h2>
 
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
+
+
 
 <h2>Environments and Technologies Used</h2>
 
@@ -36,7 +36,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This screenshot shows the cloud infrastructure created within Microsoft Azure, including a Windows 10 virtual machine and an Ubuntu Linux virtual machine deployed within the same virtual network and subnet. This configuration enabled private network communication between the systems and provided a controlled environment for analyzing network traffic, connectivity, and security configurations.
 </p>
 <br />
 
@@ -44,7 +44,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This screenshot shows Internet Control Message Protocol (ICMP) traffic captured within Wireshark during communication between the Windows 10 and Ubuntu virtual machines. ICMP echo requests and echo replies were generated using the ping command and analyzed to verify network connectivity between systems. This exercise demonstrated packet capture techniques, network troubleshooting, and protocol-level traffic analysis.
 </p>
 <br />
 
@@ -52,6 +52,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This screenshot demonstrates the impact of Azure Network Security Group (NSG) firewall rules on network communication. Inbound ICMP traffic was blocked on the Ubuntu virtual machine, causing ping requests from the Windows virtual machine to fail. After re-enabling the rule, connectivity was restored. This exercise demonstrated firewall administration, traffic filtering, access control, and the effect of security policies on network communications.
 </p>
 <br />
